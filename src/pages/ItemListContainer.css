@@ -1,0 +1,39 @@
+.cursos-container{
+    display: flex;
+    width: 100%;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-right: 2px solid wheat;
+    width: 15%;
+    text-align: center;
+}
+
+.lista-cursos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.categoria-elemento{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding-left: 50px;
+    font-family: lotto,sans-serif;
+    font-size: 25px;
+    cursor:pointer;
+    color: antiquewhite;
+}
+
+.categoria-elemento:hover{
+    background-color:  #22aed1;
+}
+
+.categoria-actual{
+    background-color:  #22aed1;
+}

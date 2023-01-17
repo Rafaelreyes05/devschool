@@ -1,0 +1,24 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    color: #f1f1f1;
+    align-items: center;
+}
+
+.menuItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a,a:link{
+    text-decoration: none;
+    color: antiquewhite;
+    text-justify: auto;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+a:hover{
+    color: #22aed1;
+}

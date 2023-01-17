@@ -1,0 +1,23 @@
+/*Index*/
+h2{
+    color: antiquewhite;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 38px;
+}
+
+h1{
+    color: #22aed1 ;
+    font-family:'Rubik Moonrocks', cursive;
+    font-size: 40px;
+}
+
+.parrafo{
+    color: antiquewhite;
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.imagenPortada>img{
+    width: 100%;
+    height: auto;
+}

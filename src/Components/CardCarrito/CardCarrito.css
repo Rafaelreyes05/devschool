@@ -1,0 +1,92 @@
+.paginaCarrito{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carrito{
+    background-color: #212e36;
+    margin: 40px;
+    width: 80%;
+}
+
+.tituloCarrito>p{
+    font-size: 30px;
+    color: antiquewhite;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+
+
+.producto{
+    height: 100px;
+    border-bottom: black solid;
+    margin-bottom: 30px;
+}
+
+.nombreCursoCarrito{
+    color: #22aed1;
+    font-size: 20px;
+    font-weight: 300px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.buttonEliminar{
+    padding: 0;
+    margin: 0;
+}
+
+.subtotal{
+    text-align: end;
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+
+#resumen{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: antiquewhite;
+}
+
+.total{
+    width: 100%;
+    font-size:32px;
+    font-weight: 700;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 40px 0px;
+}
+
+.palabratotal{
+    text-align: start;
+}
+
+#valortotal{
+    text-align: end;
+}
+
+#pago{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#lista{
+    padding: 30px;
+    width: 70%;
+
+}
+
+.titulo-resumen{
+    font-size: 24px;
+    text-align: center;
+
+}
+
