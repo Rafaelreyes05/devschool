@@ -6,7 +6,8 @@ import Home from './pages/Home'
 import ItemListContainer from './pages/ItemListContainer'
 import ItemDetailContainer from './pages/ItemDetailContainer'
 import Carrito from './pages/Carrito'
-
+import Pay from './pages/Pay'
+import Paid from './pages/Paid'
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route path="/cursos" element={<ItemListContainer />} />
           <Route path="/cursos/categoria/:id" element={<ItemListContainer />} />
           <Route path="/cursos/item/:id" element={<ItemDetailContainer />} />
+          <Route path="/pay" element={<Pay />} />
+          <Route path="/paid" element={<Paid />} />
         </Routes>
       </main>
       <footer></footer>

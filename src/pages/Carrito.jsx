@@ -2,6 +2,7 @@ import "./Carrito.css";
 import CardCarrito from "../Components/CardCarrito/CardCarrito";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Carrito() {  
   let [carrito,setCarrito] = useState([])
@@ -38,12 +39,10 @@ export default function Carrito() {
                 <div className="palabratotal">Total:</div>
                 <div classname="valortotal">{total}</div>
               </div>
-              <button className="btn btn-success">Iniciar Pago</button>
+              <button className="btn btn-success"><Link to="/pay">Iniciar Pago</Link></button>
             </div>
             </>
           )}
-          
-
       </div>
     </div>
   );
